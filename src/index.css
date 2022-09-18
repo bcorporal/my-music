@@ -78,7 +78,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1240px;
+  /* max-width: 1240px; */
   margin: auto;
   height: 100%;
   padding: 0 1rem;
@@ -91,8 +91,9 @@ a {
 
 .header .navbar img {
   width: 250px;
-  height: calc(100vw * .1615);
+  /* height: calc(100vw * .1615); */
   height: auto;
+
 
 }
 
@@ -100,11 +101,12 @@ a {
   display: flex;
 }
 
-.header .nav-item {
-  padding: 5rem;
+.header .nav-item a {
+  padding: 3rem;
   font-weight: 100;
   font-family: monospace;
   font-size: 20px;
+  color: white;
 }
 
 .header .nav-item a:hover {
@@ -127,8 +129,10 @@ a {
     max-width: 100%;
   }
 
-  .hamburger {
+  .hamburger  {
     display: block;
+    padding-right: 1rem;
+    display: none;
   }
 
   .nav-menu {
@@ -153,7 +157,10 @@ a {
   }
 
   .header .navbar img {
-    width: 200px;
+    max-width: 150px;
+    display: block;
+    height: auto;
+
   }
 }
 /* ======== SEARCH ============== */
@@ -318,7 +325,6 @@ border: none;
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
-  /* border-top: var(--gray-bg) 1px solid; */
   background-color: rgb(255, 255, 255);
   border-radius: .9rem;
   margin: 1.5rem;
@@ -336,7 +342,7 @@ border: none;
 }
 
 .heart-checkbox {
-  position: absolute;
+  /* position: absolute; */
   left: -100vw;
 }
 

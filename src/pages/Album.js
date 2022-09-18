@@ -80,7 +80,7 @@ class Album extends React.Component {
 }
 
 Album.propTypes = {
-  match: PropTypes.arrayOf.isRequired,
+  match: PropTypes.object.isRequired,
 };
 
 export default Album;

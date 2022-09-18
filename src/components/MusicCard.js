@@ -5,9 +5,10 @@ class MusicCard extends React.Component {
   render() {
     const { musics, changeFavorite, isFavorite } = this.props;
     return musics.map((music) => (
-      <div key={music.trackId} class="music-card">
+      <div key={music.trackId} className="music-card">
         <p>{music.trackName}</p>
-        <audio src={music.previewUrl} controls>
+        <audio controls>
+          <source src={music.previewUrl} />
           <track kind="captions" />
           Your browser does not support the element
           <code>audio</code>.
@@ -28,7 +29,7 @@ class MusicCard extends React.Component {
 }
 
 MusicCard.propTypes = {
-  musics: PropTypes.arrayOf.isRequired,
+  musics: PropTypes.array.isRequired,
   isFavorite: PropTypes.func.isRequired,
   changeFavorite: PropTypes.func.isRequired,
 };

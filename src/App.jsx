@@ -5,8 +5,6 @@ import Favorites from './pages/Favorites';
 import Search from './pages/Search';
 import searchAlbumsAPI from './services/searchAlbumsAPI';
 
-
-
 class App extends React.Component {
   constructor() {
     super();
@@ -79,24 +77,24 @@ class App extends React.Component {
     } = this.state;
     return (
       <main>
-      <Switch>
-      <Route path="/album/:id" component={ Album } />
-      <Route path="/favorites" component={ Favorites } />
-      <Route
-        path="/"
-        render={ (props) => (
-          <Search
-            { ...props }
-            handlechange={ this.handleChange }
-            value={ artistSearch }
-            btnSearchAlbums={ this.btnSearchAlbums }
-            searchResults={ searchResults }
-            albumsResult={ albumsResult }
-            loading={ loading }
-            renderAlbums={ this.renderAlbums }
-          />) }
-      />
-      </Switch>
+        <Switch>
+          <Route path="/album/:id" component={ Album } />
+          <Route path="/favorites" component={ Favorites } />
+          <Route
+            path="/"
+            render={(props) => (
+              <Search
+                {...props}
+                handlechange={ this.handleChange }
+                value={ artistSearch }
+                btnSearchAlbums={ this.btnSearchAlbums }
+                searchResults={ searchResults }
+                albumsResult={ albumsResult }
+                loading={ loading }
+                renderAlbums={ this.renderAlbums }
+              />) }
+          />
+        </Switch>
       </main>
     );
   }
