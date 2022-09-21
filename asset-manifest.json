@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-music/static/css/main.0cd7ea3a.chunk.css",
+    "main.css": "/my-music/static/css/main.b5a091d1.chunk.css",
     "main.js": "/my-music/static/js/main.f22c51c4.chunk.js",
     "main.js.map": "/my-music/static/js/main.f22c51c4.chunk.js.map",
     "runtime-main.js": "/my-music/static/js/runtime-main.7e58ea2d.js",
@@ -11,16 +11,16 @@
     "service-worker.js": "/my-music/service-worker.js",
     "service-worker.js.LICENSE.txt": "/my-music/service-worker.js.LICENSE.txt",
     "service-worker.js.map": "/my-music/service-worker.js.map",
-    "static/css/main.0cd7ea3a.chunk.css.map": "/my-music/static/css/main.0cd7ea3a.chunk.css.map",
+    "static/css/main.b5a091d1.chunk.css.map": "/my-music/static/css/main.b5a091d1.chunk.css.map",
     "static/js/2.98f5c3f2.chunk.js.LICENSE.txt": "/my-music/static/js/2.98f5c3f2.chunk.js.LICENSE.txt",
     "static/media/logo11.4639a3fe.png": "/my-music/static/media/logo11.4639a3fe.png",
     "static/media/logo14.e911d3cf.png": "/my-music/static/media/logo14.e911d3cf.png",
-    "static/media/index.css": "/my-music/static/media/mosh3.58256e57.jpeg"
+    "static/media/index.css": "/my-music/static/media/music.608d0e4a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7e58ea2d.js",
     "static/js/2.98f5c3f2.chunk.js",
-    "static/css/main.0cd7ea3a.chunk.css",
+    "static/css/main.b5a091d1.chunk.css",
     "static/js/main.f22c51c4.chunk.js"
   ]
 }
